@@ -2,6 +2,7 @@ const express = require('express');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
 
+// Add Comment
 // Javascript Helpers
 const helpers = require('./utils/helpers');
 
