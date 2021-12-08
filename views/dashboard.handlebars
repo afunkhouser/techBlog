@@ -13,5 +13,11 @@
     </ol>
 </section>
 {{/if}}
+<script>
+    function navCreatePost(event){
+        event.preventDefault();
+        document.location.replace('/dashboard/createPost')
+    }
 
-<script src="/javascript/nav-createPost.js"></script>
+    document.querySelector('.create-post').addEventListener('click', navCreatePost);
+</script>
